@@ -14,7 +14,7 @@
  * when including this patch.
  * https://st.suckless.org/patches/alpha/
  */
-#define ALPHA_PATCH 0
+#define ALPHA_PATCH 1 
 
 /* The alpha focus highlight patch allows the user to specify two distinct opacity values or
  * background colors in order to easily differentiate between focused and unfocused terminal
@@ -371,7 +371,7 @@
  * This variant depends on SCROLLBACK_PATCH being enabled.
  * https://st.suckless.org/patches/scrollback/
  */
-#define SCROLLBACK_MOUSE_ALTSCREEN_PATCH 0
+#define SCROLLBACK_MOUSE_ALTSCREEN_PATCH 1  
 
 /* This patch adds the two color-settings selectionfg and selectionbg to config.def.h.
  * Those define the fore- and background colors which are used when text on the screen is selected
